@@ -14,6 +14,14 @@ This repository contains the Dogs vs. Cats and CIFAR-10 experiment code, model c
 - `outputs/ckpts/`, `outputs/metrics/`, `outputs/logs/`, `outputs/figures/`: comparison models and experimental results.
 - `submission.csv`: 500 Dogs vs. Cats Test predictions, with `cat=0` and `dog=1`.
 
+The five larger checkpoints are stored as 4 MiB files under `checkpoint_parts/` to make the GitHub upload reliable. Restore them after cloning:
+
+```bash
+python code/restore_checkpoints.py
+```
+
+The script verifies each restored file against the SHA-256 in `checkpoint_parts/manifest.json`. The smaller CNN checkpoints in `outputs/ckpts/` are available directly.
+
 The teacher's Dogs vs. Cats Test images do not have public labels. The reported **98.22%** accuracy is on the labeled 5,000-image Validation set.
 
 ## Run

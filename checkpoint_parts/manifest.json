@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "chunk_size": 4194304,
+  "checkpoints": [
+    {
+      "path": "ckpts/dvc_resnet.pt",
+      "size": 44785144,
+      "sha256": "0b1715066a65386b5dd16e8736e4eec28e23fb5666ebfb1abff1a40657397e8f",
+      "parts": [
+        "ckpts/dvc_resnet.pt.part000",
+        "ckpts/dvc_resnet.pt.part001",
+        "ckpts/dvc_resnet.pt.part002",
+        "ckpts/dvc_resnet.pt.part003",
+        "ckpts/dvc_resnet.pt.part004",
+        "ckpts/dvc_resnet.pt.part005",
+        "ckpts/dvc_resnet.pt.part006",
+        "ckpts/dvc_resnet.pt.part007",
+        "ckpts/dvc_resnet.pt.part008",
+        "ckpts/dvc_resnet.pt.part009",
+        "ckpts/dvc_resnet.pt.part010"
+      ]
+    },
+    {
+      "path": "outputs/ckpts/cifar10_s0.pt",
+      "size": 18800098,
+      "sha256": "3db136eec4bc2eff8645100e90bd5385f18d360d3e97633847c858d766ea1044",
+      "parts": [
+        "outputs/ckpts/cifar10_s0.pt.part000",
+        "outputs/ckpts/cifar10_s0.pt.part001",
+        "outputs/ckpts/cifar10_s0.pt.part002",
+        "outputs/ckpts/cifar10_s0.pt.part003",
+        "outputs/ckpts/cifar10_s0.pt.part004"
+      ]
+    },
+    {
+      "path": "outputs/ckpts/cifar10imb_baseline.pt",
+      "size": 18800584,
+      "sha256": "d7049780c12bc3764b8eaee3639035b1b22e50ef50903d4c3eb30a65a8f505bf",
+      "parts": [
+        "outputs/ckpts/cifar10imb_baseline.pt.part000",
+        "outputs/ckpts/cifar10imb_baseline.pt.part001",
+        "outputs/ckpts/cifar10imb_baseline.pt.part002",
+        "outputs/ckpts/cifar10imb_baseline.pt.part003",
+        "outputs/ckpts/cifar10imb_baseline.pt.part004"
+      ]
+    },
+    {
+      "path": "outputs/ckpts/cifar10imb_oversamp.pt",
+      "size": 18800584,
+      "sha256": "48d1f26f8261a47298b647b3092d8e7b4b24339d613588b64fec47ab394750b6",
+      "parts": [
+        "outputs/ckpts/cifar10imb_oversamp.pt.part000",
+        "outputs/ckpts/cifar10imb_oversamp.pt.part001",
+        "outputs/ckpts/cifar10imb_oversamp.pt.part002",
+        "outputs/ckpts/cifar10imb_oversamp.pt.part003",
+        "outputs/ckpts/cifar10imb_oversamp.pt.part004"
+      ]
+    },
+    {
+      "path": "outputs/ckpts/cifar10imb_weighted.pt",
+      "size": 18800584,
+      "sha256": "df3cc39129096c30eaf3daf4a587719c5790e863a2bc4af45e6b0bdf3dcb85de",
+      "parts": [
+        "outputs/ckpts/cifar10imb_weighted.pt.part000",
+        "outputs/ckpts/cifar10imb_weighted.pt.part001",
+        "outputs/ckpts/cifar10imb_weighted.pt.part002",
+        "outputs/ckpts/cifar10imb_weighted.pt.part003",
+        "outputs/ckpts/cifar10imb_weighted.pt.part004"
+      ]
+    }
+  ]
+}
