@@ -1,0 +1,7 @@
+run,model,input_px,augmented,train_count,val_count,epochs,seed,val_accuracy,delta_vs_main_seed0
+dvc_main_s0,cnn,128,True,10000,5000,18,0,0.8922,0.0
+dvc_main_s1,cnn,128,True,10000,5000,18,1,0.8852,-0.007
+dvc_main_s2,cnn,128,True,10000,5000,18,2,0.889,-0.0032
+dvc_noaug,cnn,128,False,10000,5000,18,0,0.9046,0.0124
+dvc_small64,cnn,64,True,10000,5000,18,0,0.8836,-0.0086
+dvc_resnet,resnet18,160,True,10000,5000,8,0,0.9822,

@@ -1,0 +1,76 @@
+device=cuda mode=main seed=1
+dvc_main_s1: 0.25M trainable params, 10000 train / 5000 val images, input 128px
+[dvc_main_s1] ep1 it50/157 loss=0.6858 acc=0.5953
+[dvc_main_s1] ep1 it100/157 loss=0.6689 acc=0.6092
+[dvc_main_s1] ep1 it150/157 loss=0.6592 acc=0.6210
+[dvc_main_s1] epoch 1/18 train_loss=0.6585 train_acc=0.6223 val_loss=0.6056 val_acc=0.6778 (10s) lr=9.92e-04
+[dvc_main_s1] ep2 it50/157 loss=0.6206 acc=0.6616
+[dvc_main_s1] ep2 it100/157 loss=0.6130 acc=0.6698
+[dvc_main_s1] ep2 it150/157 loss=0.6040 acc=0.6770
+[dvc_main_s1] epoch 2/18 train_loss=0.6017 train_acc=0.6787 val_loss=0.6419 val_acc=0.6564 (9s) lr=9.70e-04
+[dvc_main_s1] ep3 it50/157 loss=0.5979 acc=0.6822
+[dvc_main_s1] ep3 it100/157 loss=0.5761 acc=0.6984
+[dvc_main_s1] ep3 it150/157 loss=0.5715 acc=0.7050
+[dvc_main_s1] epoch 3/18 train_loss=0.5713 train_acc=0.7047 val_loss=0.5628 val_acc=0.7090 (9s) lr=9.33e-04
+[dvc_main_s1] ep4 it50/157 loss=0.5491 acc=0.7216
+[dvc_main_s1] ep4 it100/157 loss=0.5473 acc=0.7227
+[dvc_main_s1] ep4 it150/157 loss=0.5452 acc=0.7241
+[dvc_main_s1] epoch 4/18 train_loss=0.5442 train_acc=0.7252 val_loss=0.6649 val_acc=0.6542 (12s) lr=8.83e-04
+[dvc_main_s1] ep5 it50/157 loss=0.5435 acc=0.7291
+[dvc_main_s1] ep5 it100/157 loss=0.5234 acc=0.7439
+[dvc_main_s1] ep5 it150/157 loss=0.5227 acc=0.7465
+[dvc_main_s1] epoch 5/18 train_loss=0.5209 train_acc=0.7476 val_loss=0.5109 val_acc=0.7428 (10s) lr=8.21e-04
+[dvc_main_s1] ep6 it50/157 loss=0.5098 acc=0.7500
+[dvc_main_s1] ep6 it100/157 loss=0.5092 acc=0.7522
+[dvc_main_s1] ep6 it150/157 loss=0.5027 acc=0.7556
+[dvc_main_s1] epoch 6/18 train_loss=0.5043 train_acc=0.7537 val_loss=0.4628 val_acc=0.7966 (9s) lr=7.50e-04
+[dvc_main_s1] ep7 it50/157 loss=0.4837 acc=0.7612
+[dvc_main_s1] ep7 it100/157 loss=0.4870 acc=0.7678
+[dvc_main_s1] ep7 it150/157 loss=0.4886 acc=0.7697
+[dvc_main_s1] epoch 7/18 train_loss=0.4881 train_acc=0.7694 val_loss=0.4530 val_acc=0.7920 (10s) lr=6.71e-04
+[dvc_main_s1] ep8 it50/157 loss=0.4864 acc=0.7791
+[dvc_main_s1] ep8 it100/157 loss=0.4868 acc=0.7773
+[dvc_main_s1] ep8 it150/157 loss=0.4745 acc=0.7818
+[dvc_main_s1] epoch 8/18 train_loss=0.4718 train_acc=0.7831 val_loss=0.4840 val_acc=0.7668 (10s) lr=5.87e-04
+[dvc_main_s1] ep9 it50/157 loss=0.4536 acc=0.7937
+[dvc_main_s1] ep9 it100/157 loss=0.4497 acc=0.7936
+[dvc_main_s1] ep9 it150/157 loss=0.4456 acc=0.7960
+[dvc_main_s1] epoch 9/18 train_loss=0.4455 train_acc=0.7959 val_loss=0.4151 val_acc=0.8128 (9s) lr=5.00e-04
+[dvc_main_s1] ep10 it50/157 loss=0.4464 acc=0.7894
+[dvc_main_s1] ep10 it100/157 loss=0.4345 acc=0.7975
+[dvc_main_s1] ep10 it150/157 loss=0.4247 acc=0.8063
+[dvc_main_s1] epoch 10/18 train_loss=0.4237 train_acc=0.8070 val_loss=0.3670 val_acc=0.8428 (10s) lr=4.13e-04
+[dvc_main_s1] ep11 it50/157 loss=0.3988 acc=0.8228
+[dvc_main_s1] ep11 it100/157 loss=0.3991 acc=0.8253
+[dvc_main_s1] ep11 it150/157 loss=0.3990 acc=0.8251
+[dvc_main_s1] epoch 11/18 train_loss=0.3983 train_acc=0.8262 val_loss=0.3783 val_acc=0.8252 (10s) lr=3.29e-04
+[dvc_main_s1] ep12 it50/157 loss=0.3787 acc=0.8297
+[dvc_main_s1] ep12 it100/157 loss=0.3814 acc=0.8345
+[dvc_main_s1] ep12 it150/157 loss=0.3731 acc=0.8385
+[dvc_main_s1] epoch 12/18 train_loss=0.3733 train_acc=0.8383 val_loss=0.5019 val_acc=0.7740 (9s) lr=2.50e-04
+[dvc_main_s1] ep13 it50/157 loss=0.3834 acc=0.8325
+[dvc_main_s1] ep13 it100/157 loss=0.3694 acc=0.8400
+[dvc_main_s1] ep13 it150/157 loss=0.3626 acc=0.8430
+[dvc_main_s1] epoch 13/18 train_loss=0.3616 train_acc=0.8434 val_loss=0.3516 val_acc=0.8504 (9s) lr=1.79e-04
+[dvc_main_s1] ep14 it50/157 loss=0.3386 acc=0.8566
+[dvc_main_s1] ep14 it100/157 loss=0.3424 acc=0.8538
+[dvc_main_s1] ep14 it150/157 loss=0.3419 acc=0.8532
+[dvc_main_s1] epoch 14/18 train_loss=0.3434 train_acc=0.8528 val_loss=0.3367 val_acc=0.8488 (10s) lr=1.17e-04
+[dvc_main_s1] ep15 it50/157 loss=0.3345 acc=0.8600
+[dvc_main_s1] ep15 it100/157 loss=0.3304 acc=0.8631
+[dvc_main_s1] ep15 it150/157 loss=0.3314 acc=0.8617
+[dvc_main_s1] epoch 15/18 train_loss=0.3306 train_acc=0.8620 val_loss=0.3164 val_acc=0.8680 (9s) lr=6.70e-05
+[dvc_main_s1] ep16 it50/157 loss=0.3163 acc=0.8659
+[dvc_main_s1] ep16 it100/157 loss=0.3168 acc=0.8678
+[dvc_main_s1] ep16 it150/157 loss=0.3170 acc=0.8668
+[dvc_main_s1] epoch 16/18 train_loss=0.3163 train_acc=0.8668 val_loss=0.2902 val_acc=0.8810 (9s) lr=3.02e-05
+[dvc_main_s1] ep17 it50/157 loss=0.3351 acc=0.8600
+[dvc_main_s1] ep17 it100/157 loss=0.3175 acc=0.8692
+[dvc_main_s1] ep17 it150/157 loss=0.3096 acc=0.8729
+[dvc_main_s1] epoch 17/18 train_loss=0.3091 train_acc=0.8723 val_loss=0.2831 val_acc=0.8852 (9s) lr=7.60e-06
+[dvc_main_s1] ep18 it50/157 loss=0.3077 acc=0.8703
+[dvc_main_s1] ep18 it100/157 loss=0.3001 acc=0.8769
+[dvc_main_s1] ep18 it150/157 loss=0.2986 acc=0.8778
+[dvc_main_s1] epoch 18/18 train_loss=0.3000 train_acc=0.8770 val_loss=0.2821 val_acc=0.8838 (9s) lr=0.00e+00
+[saved] /usr1/home/s124mdg55_05/ee6483_mini/project/outputs/metrics/dvc_main_s1.json
+[RESULT] dvc_main_s1: best_val_acc=0.8852 final_val_acc=0.8852

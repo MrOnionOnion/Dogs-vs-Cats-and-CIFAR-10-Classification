@@ -1,0 +1,33 @@
+device=cuda train=45000 val=5000 test=10000
+[cifar10_s0] epoch 1/30 train_loss=1.7118 train_acc=0.4342 val_loss=1.4651 val_acc=0.5676 (6s) lr=9.97e-04
+[cifar10_s0] epoch 2/30 train_loss=1.3292 train_acc=0.6327 val_loss=1.4407 val_acc=0.5958 (5s) lr=9.89e-04
+[cifar10_s0] epoch 3/30 train_loss=1.1853 train_acc=0.7040 val_loss=1.1449 val_acc=0.7176 (6s) lr=9.76e-04
+[cifar10_s0] epoch 4/30 train_loss=1.1170 train_acc=0.7372 val_loss=1.2520 val_acc=0.6868 (5s) lr=9.57e-04
+[cifar10_s0] epoch 5/30 train_loss=1.0626 train_acc=0.7616 val_loss=1.0191 val_acc=0.7766 (5s) lr=9.33e-04
+[cifar10_s0] epoch 6/30 train_loss=1.0277 train_acc=0.7774 val_loss=1.0306 val_acc=0.7740 (5s) lr=9.05e-04
+[cifar10_s0] epoch 7/30 train_loss=0.9929 train_acc=0.7958 val_loss=1.0270 val_acc=0.7802 (5s) lr=8.72e-04
+[cifar10_s0] epoch 8/30 train_loss=0.9592 train_acc=0.8101 val_loss=1.0684 val_acc=0.7662 (5s) lr=8.35e-04
+[cifar10_s0] epoch 9/30 train_loss=0.9346 train_acc=0.8187 val_loss=0.9259 val_acc=0.8228 (6s) lr=7.94e-04
+[cifar10_s0] epoch 10/30 train_loss=0.9093 train_acc=0.8297 val_loss=0.9198 val_acc=0.8296 (6s) lr=7.50e-04
+[cifar10_s0] epoch 11/30 train_loss=0.8928 train_acc=0.8363 val_loss=0.9209 val_acc=0.8174 (5s) lr=7.03e-04
+[cifar10_s0] epoch 12/30 train_loss=0.8650 train_acc=0.8485 val_loss=0.8813 val_acc=0.8366 (6s) lr=6.55e-04
+[cifar10_s0] epoch 13/30 train_loss=0.8453 train_acc=0.8587 val_loss=0.8853 val_acc=0.8340 (5s) lr=6.04e-04
+[cifar10_s0] epoch 14/30 train_loss=0.8279 train_acc=0.8651 val_loss=0.8533 val_acc=0.8496 (6s) lr=5.52e-04
+[cifar10_s0] epoch 15/30 train_loss=0.8101 train_acc=0.8733 val_loss=0.8328 val_acc=0.8574 (6s) lr=5.00e-04
+[cifar10_s0] epoch 16/30 train_loss=0.7918 train_acc=0.8824 val_loss=0.8098 val_acc=0.8660 (6s) lr=4.48e-04
+[cifar10_s0] epoch 17/30 train_loss=0.7692 train_acc=0.8913 val_loss=0.8568 val_acc=0.8472 (5s) lr=3.96e-04
+[cifar10_s0] epoch 18/30 train_loss=0.7539 train_acc=0.8975 val_loss=0.7590 val_acc=0.8964 (6s) lr=3.45e-04
+[cifar10_s0] epoch 19/30 train_loss=0.7372 train_acc=0.9040 val_loss=0.7521 val_acc=0.8984 (5s) lr=2.97e-04
+[cifar10_s0] epoch 20/30 train_loss=0.7187 train_acc=0.9123 val_loss=0.7546 val_acc=0.8946 (5s) lr=2.50e-04
+[cifar10_s0] epoch 21/30 train_loss=0.7047 train_acc=0.9189 val_loss=0.7375 val_acc=0.8998 (6s) lr=2.06e-04
+[cifar10_s0] epoch 22/30 train_loss=0.6887 train_acc=0.9267 val_loss=0.7271 val_acc=0.9064 (5s) lr=1.65e-04
+[cifar10_s0] epoch 23/30 train_loss=0.6756 train_acc=0.9318 val_loss=0.7174 val_acc=0.9094 (6s) lr=1.28e-04
+[cifar10_s0] epoch 24/30 train_loss=0.6620 train_acc=0.9371 val_loss=0.7081 val_acc=0.9146 (6s) lr=9.55e-05
+[cifar10_s0] epoch 25/30 train_loss=0.6472 train_acc=0.9432 val_loss=0.7008 val_acc=0.9182 (6s) lr=6.70e-05
+[cifar10_s0] epoch 26/30 train_loss=0.6406 train_acc=0.9465 val_loss=0.6902 val_acc=0.9232 (6s) lr=4.32e-05
+[cifar10_s0] epoch 27/30 train_loss=0.6284 train_acc=0.9514 val_loss=0.6857 val_acc=0.9248 (5s) lr=2.45e-05
+[cifar10_s0] epoch 28/30 train_loss=0.6253 train_acc=0.9539 val_loss=0.6877 val_acc=0.9244 (6s) lr=1.09e-05
+[cifar10_s0] epoch 29/30 train_loss=0.6214 train_acc=0.9557 val_loss=0.6861 val_acc=0.9256 (6s) lr=2.74e-06
+[cifar10_s0] epoch 30/30 train_loss=0.6183 train_acc=0.9585 val_loss=0.6856 val_acc=0.9260 (5s) lr=0.00e+00
+[saved] /usr1/home/s124mdg55_05/ee6483_mini/project/outputs/metrics/cifar10_s0.json
+[RESULT] cifar10_s0: val=0.9260 test=0.9165

@@ -1,0 +1,11 @@
+class_name,support,correct,recall
+airplane,1000,922,0.922
+automobile,1000,967,0.967
+bird,1000,881,0.881
+cat,1000,816,0.816
+deer,1000,941,0.941
+dog,1000,867,0.867
+frog,1000,943,0.943
+horse,1000,945,0.945
+ship,1000,939,0.939
+truck,1000,944,0.944

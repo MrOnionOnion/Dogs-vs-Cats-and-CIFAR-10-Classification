@@ -1,0 +1,19 @@
+device=cuda train_counts=[4500, 4500, 4500, 450, 4500, 450, 4500, 450, 4500, 4500] val=5000 test=10000
+[cifar10imb_weighted] epoch 1/16 train_loss=2.3661 train_acc=0.3006 val_loss=1.7928 val_acc=0.4274 (5s) lr=9.90e-04
+[cifar10imb_weighted] epoch 2/16 train_loss=2.0442 train_acc=0.5197 val_loss=1.4830 val_acc=0.5516 (4s) lr=9.62e-04
+[cifar10imb_weighted] epoch 3/16 train_loss=1.8900 train_acc=0.6096 val_loss=1.6786 val_acc=0.4816 (4s) lr=9.16e-04
+[cifar10imb_weighted] epoch 4/16 train_loss=1.7960 train_acc=0.6707 val_loss=1.4276 val_acc=0.5638 (4s) lr=8.54e-04
+[cifar10imb_weighted] epoch 5/16 train_loss=1.7298 train_acc=0.7048 val_loss=1.2738 val_acc=0.7074 (4s) lr=7.78e-04
+[cifar10imb_weighted] epoch 6/16 train_loss=1.6707 train_acc=0.7322 val_loss=1.1169 val_acc=0.6982 (4s) lr=6.91e-04
+[cifar10imb_weighted] epoch 7/16 train_loss=1.6143 train_acc=0.7579 val_loss=1.1375 val_acc=0.7580 (4s) lr=5.98e-04
+[cifar10imb_weighted] epoch 8/16 train_loss=1.5746 train_acc=0.7733 val_loss=1.0382 val_acc=0.7426 (4s) lr=5.00e-04
+[cifar10imb_weighted] epoch 9/16 train_loss=1.5288 train_acc=0.7932 val_loss=1.0877 val_acc=0.7548 (4s) lr=4.02e-04
+[cifar10imb_weighted] epoch 10/16 train_loss=1.4918 train_acc=0.8093 val_loss=1.1375 val_acc=0.6930 (4s) lr=3.09e-04
+[cifar10imb_weighted] epoch 11/16 train_loss=1.4458 train_acc=0.8277 val_loss=1.0397 val_acc=0.7908 (4s) lr=2.22e-04
+[cifar10imb_weighted] epoch 12/16 train_loss=1.3944 train_acc=0.8469 val_loss=0.9445 val_acc=0.8112 (4s) lr=1.46e-04
+[cifar10imb_weighted] epoch 13/16 train_loss=1.3625 train_acc=0.8587 val_loss=0.9115 val_acc=0.8164 (4s) lr=8.43e-05
+[cifar10imb_weighted] epoch 14/16 train_loss=1.3238 train_acc=0.8749 val_loss=0.8841 val_acc=0.8394 (4s) lr=3.81e-05
+[cifar10imb_weighted] epoch 15/16 train_loss=1.2991 train_acc=0.8834 val_loss=0.8908 val_acc=0.8422 (4s) lr=9.61e-06
+[cifar10imb_weighted] epoch 16/16 train_loss=1.2857 train_acc=0.8882 val_loss=0.8848 val_acc=0.8472 (4s) lr=0.00e+00
+[saved] /usr1/home/s124mdg55_05/ee6483_mini/project/outputs/metrics/cifar10imb_weighted.json
+[RESULT] cifar10imb_weighted: val=0.8472 test=0.8433 minority_recall=0.7353

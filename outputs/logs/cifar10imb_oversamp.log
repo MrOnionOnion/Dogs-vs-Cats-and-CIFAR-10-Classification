@@ -1,0 +1,19 @@
+device=cuda train_counts=[4500, 4500, 4500, 450, 4500, 450, 4500, 450, 4500, 4500] val=5000 test=10000
+[cifar10imb_oversamp] epoch 1/16 train_loss=1.7461 train_acc=0.4160 val_loss=1.6309 val_acc=0.4988 (5s) lr=9.90e-04
+[cifar10imb_oversamp] epoch 2/16 train_loss=1.3710 train_acc=0.6093 val_loss=1.3804 val_acc=0.6184 (4s) lr=9.62e-04
+[cifar10imb_oversamp] epoch 3/16 train_loss=1.2041 train_acc=0.6937 val_loss=1.3056 val_acc=0.6588 (4s) lr=9.16e-04
+[cifar10imb_oversamp] epoch 4/16 train_loss=1.1057 train_acc=0.7436 val_loss=1.1619 val_acc=0.7178 (4s) lr=8.54e-04
+[cifar10imb_oversamp] epoch 5/16 train_loss=1.0191 train_acc=0.7860 val_loss=1.1683 val_acc=0.7256 (4s) lr=7.78e-04
+[cifar10imb_oversamp] epoch 6/16 train_loss=0.9698 train_acc=0.8079 val_loss=1.1774 val_acc=0.7278 (4s) lr=6.91e-04
+[cifar10imb_oversamp] epoch 7/16 train_loss=0.9125 train_acc=0.8355 val_loss=1.0657 val_acc=0.7616 (4s) lr=5.98e-04
+[cifar10imb_oversamp] epoch 8/16 train_loss=0.8628 train_acc=0.8568 val_loss=1.1279 val_acc=0.7422 (4s) lr=5.00e-04
+[cifar10imb_oversamp] epoch 9/16 train_loss=0.8204 train_acc=0.8756 val_loss=1.0523 val_acc=0.7818 (4s) lr=4.02e-04
+[cifar10imb_oversamp] epoch 10/16 train_loss=0.7830 train_acc=0.8909 val_loss=1.0401 val_acc=0.7842 (4s) lr=3.09e-04
+[cifar10imb_oversamp] epoch 11/16 train_loss=0.7452 train_acc=0.9058 val_loss=0.9805 val_acc=0.8080 (4s) lr=2.22e-04
+[cifar10imb_oversamp] epoch 12/16 train_loss=0.7229 train_acc=0.9148 val_loss=0.9245 val_acc=0.8328 (4s) lr=1.46e-04
+[cifar10imb_oversamp] epoch 13/16 train_loss=0.6956 train_acc=0.9258 val_loss=0.8873 val_acc=0.8492 (4s) lr=8.43e-05
+[cifar10imb_oversamp] epoch 14/16 train_loss=0.6720 train_acc=0.9364 val_loss=0.9203 val_acc=0.8388 (4s) lr=3.81e-05
+[cifar10imb_oversamp] epoch 15/16 train_loss=0.6603 train_acc=0.9396 val_loss=0.9005 val_acc=0.8482 (4s) lr=9.61e-06
+[cifar10imb_oversamp] epoch 16/16 train_loss=0.6479 train_acc=0.9463 val_loss=0.8823 val_acc=0.8522 (4s) lr=0.00e+00
+[saved] /usr1/home/s124mdg55_05/ee6483_mini/project/outputs/metrics/cifar10imb_oversamp.json
+[RESULT] cifar10imb_oversamp: val=0.8522 test=0.8478 minority_recall=0.6647
